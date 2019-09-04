@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      dot-net: core-2.1
+      dotnet: core-2.1
   build:
     commands:
       - dotnet test ./src/HelloTests/HelloTests.csproj
